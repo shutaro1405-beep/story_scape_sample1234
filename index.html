@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Story Scape</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+
+    <!-- ==================================
+         サイト全体
+    =================================== -->
+
+    <div class="site-wrapper">
+
+        <button class="menu-button" type="button" aria-controls="side-panel" aria-expanded="false">
+            <span class="menu-icon" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+            <span class="sr-only">メニューを開く</span>
+        </button>
+
+
+        <!-- ==================================
+             左側：メインコンテンツ
+        =================================== -->
+
+        <main class="main-content">
+
+
+            <!-- ==================================
+                 TOP
+            =================================== -->
+
+            <section class="top-section home">
+
+                <!-- 背景画像 -->
+                <img src="images/top.jpeg" alt="読書をイメージした風景" class="top-image">
+
+                <!-- 画像の上に表示する文字 -->
+                <div class="top-text">
+
+                    <h1>Story Scape</h1>
+
+                    <p>
+                        Web空間における新たな読書体験の提案
+                    </p>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- ==================================
+                 サイト概要
+            =================================== -->
+
+            <section class="about-section">
+
+
+                <!-- 装飾 -->
+                <div class="leaf-decoration leaf-left">
+                    ❧
+                </div>
+
+                <div class="leaf-decoration leaf-right">
+                    ❧
+                </div>
+
+
+                <div class="about-inner">
+
+
+                    <!-- タイトル -->
+
+                    <div class="section-heading">
+
+                        <span></span>
+
+                        <h2>サイト概要</h2>
+
+                        <span></span>
+
+                    </div>
+
+
+                    <!-- 本文 -->
+
+                    <div class="about-text">
+
+                        <p>
+                            近年、スマートフォンや電子書籍サービスの普及により、
+                            Web上で小説を読む機会が増加している。
+                        </p>
+
+                        <p>
+                            しかし、多くの読書サービスは紙媒体の閲覧形式を踏襲しており、
+                            Webならではのインタラクティブ性や空間的表現は
+                            十分に活用されていない。
+                        </p>
+
+
+                        <p class="about-emphasis">
+                            Web空間の特性を活かした新たな読書体験ができる。
+                        </p>
+
+                        <p>
+                            作品同士のテーマや感情のつながりを可視化し、
+                            読者が物語を探索しながら読むことのできる
+                            Webサイトである。
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+            </section>
+
+
+
+            <!-- ==================================
+                 ジャンル一覧
+            =================================== -->
+
+            <section class="genre-section" id="genre">
+
+
+                <!-- 背景画像 -->
+
+                <img src="https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=1200&q=80" alt="" class="genre-background">
+
+
+                <!-- 背景を少し暗くする -->
+
+                <div class="genre-overlay"></div>
+
+
+                <!-- ジャンルコンテンツ -->
+
+                <div class="genre-content">
+
+
+                    <!-- タイトル -->
+
+                    <div class="genre-heading">
+
+                        <span></span>
+
+                        <h2>ジャンル一覧</h2>
+
+                        <span></span>
+
+                    </div>
+
+
+                    <!-- ジャンル -->
+
+                    <div class="genre-grid">
+
+
+                        <!-- 共感 -->
+
+                        <a href="genre_kyoukan.html" class="genre-card">
+
+                            <div class="genre-icon">
+                                ❤
+                            </div>
+
+                            <span>
+                                共感
+                            </span>
+
+                        </a>
+
+
+                        <!-- 感動 -->
+
+                        <a href="genre_kandou.html" class="genre-card">
+
+                            <div class="genre-icon">
+                                ✦
+                            </div>
+
+                            <span>
+                                感動
+                            </span>
+
+                        </a>
+
+
+                        <!-- 興奮・高揚 -->
+
+                        <a href="genre_kofun_koutyou.html" class="genre-card">
+
+                            <div class="genre-icon">
+                                ✧
+                            </div>
+
+                            <span>
+                                興奮・高揚
+                            </span>
+
+                        </a>
+
+
+                        <!-- 驚き -->
+
+                        <a href="genre_odoroki.html" class="genre-card">
+
+                            <div class="genre-icon">
+                                ☼
+                            </div>
+
+                            <span>
+                                驚き
+                            </span>
+
+                        </a>
+
+
+                        <!-- 癒し -->
+
+                        <a href="genre_iyashi.html" class="genre-card">
+
+                            <div class="genre-icon">
+                                ⌁
+                            </div>
+
+                            <span>
+                                癒し
+                            </span>
+
+                        </a>
+
+
+                        <!-- 緊張・不安 -->
+
+                        <a href="genre_kinchou_fuan.html" class="genre-card">
+
+                            <div class="genre-icon">
+                                ☾
+                            </div>
+
+                            <span>
+                                緊張・不安
+                            </span>
+
+                        </a>
+
+
+                        <!-- 没入感 -->
+
+                        <a href="genre_botsunyuu.html" class="genre-card">
+
+                            <div class="genre-icon">
+                                ♧
+                            </div>
+
+                            <span>
+                                没入感
+                            </span>
+
+                        </a>
+
+
+                        <!-- カタルシス -->
+
+                        <a href="genre_katarushisu.html" class="genre-card">
+
+                            <div class="genre-icon">
+                                ▤
+                            </div>
+
+                            <span>
+                                カタルシス
+                            </span>
+
+                        </a>
+
+
+                        <!-- 切なさ -->
+
+                        <a href="genre_setsunasa.html" class="genre-card">
+
+                            <div class="genre-icon">
+                                ❧
+                            </div>
+
+                            <span>
+                                切なさ
+                            </span>
+
+                        </a>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </section>
+
+
+
+            <!-- ==================================
+                 作品一覧
+            =================================== -->
+
+            <section class="works-section">
+
+
+                <!-- タイトル -->
+
+                <div class="works-heading">
+
+                    <div class="works-decoration">
+                        ❧
+                    </div>
+
+                    <span></span>
+
+                    <h2>作品一覧</h2>
+
+                    <span></span>
+
+                    <div class="works-decoration right">
+                        ❧
+                    </div>
+
+                </div>
+
+
+                <!-- 作品 -->
+
+                <div class="works-grid">
+
+
+                    <!-- 作品1 -->
+
+                    <a href="genre=hare1.html" class="work-card">
+
+                        <div class="work-image">
+
+                            <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80" alt="作品1">
+
+                        </div>
+
+                        <div class="work-info">
+
+                            <h3>
+                                晴れにつき雨
+                            </h3>
+
+                            <p>
+                                水田　修太朗
+                            </p>
+
+                            <small>
+                                現代文学
+                            </small>
+
+                        </div>
+
+                    </a>
+
+
+
+                    <!-- 作品2 -->
+
+                    <a href="genre=love2.html" class="work-card">
+
+                        <div class="work-image">
+
+                            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80" alt="作品2">
+
+                        </div>
+
+                        <div class="work-info">
+
+                            <h3>
+                                作品タイトル
+                            </h3>
+
+                            <p>
+                                作者名
+                            </p>
+
+                            <small>
+                                恋愛
+                            </small>
+
+                        </div>
+
+                    </a>
+
+
+
+                    <!-- 作品3 -->
+
+                    <a href="work.html" class="work-card">
+
+                        <div class="work-image">
+
+                            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80" alt="作品3">
+
+                        </div>
+
+                        <div class="work-info">
+
+                            <h3>
+                                作品タイトル
+                            </h3>
+
+                            <p>
+                                作者名
+                            </p>
+
+                            <small>
+                                ミステリー
+                            </small>
+
+                        </div>
+
+                    </a>
+
+
+
+                    <!-- 作品4 -->
+
+                    <a href="work.html" class="work-card">
+
+                        <div class="work-image">
+
+                            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="作品4">
+
+                        </div>
+
+                        <div class="work-info">
+
+                            <h3>
+                                作品タイトル
+                            </h3>
+
+                            <p>
+                                作者名
+                            </p>
+
+                            <small>
+                                青春
+                            </small>
+
+                        </div>
+
+                    </a>
+
+
+
+                    <!-- 作品5 -->
+
+                    <a href="work.html" class="work-card">
+
+                        <div class="work-image">
+
+                            <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=800&q=80" alt="作品5">
+
+                        </div>
+
+                        <div class="work-info">
+
+                            <h3>
+                                作品タイトル
+                            </h3>
+
+                            <p>
+                                作者名
+                            </p>
+
+                            <small>
+                                ファンタジー
+                            </small>
+
+                        </div>
+
+                    </a>
+
+
+
+                    <!-- 作品6 -->
+
+                    <a href="work.html" class="work-card">
+
+                        <div class="work-image">
+
+                            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="作品6">
+
+                        </div>
+
+                        <div class="work-info">
+
+                            <h3>
+                                作品タイトル
+                            </h3>
+
+                            <p>
+                                作者名
+                            </p>
+
+                            <small>
+                                短編
+                            </small>
+
+                        </div>
+
+                    </a>
+
+
+
+                    <!-- 作品7〜24 -->
+
+                    <a href="work.html" class="work-card">
+                        <div class="work-image"><img src="images/top.jpeg" alt="作品7"></div>
+                        <div class="work-info"><h3>作品タイトル 7</h3><p>作者名</p><small>現代文学</small></div>
+                    </a>
+
+                    <a href="work.html" class="work-card">
+                        <div class="work-image"><img src="images/top.jpeg" alt="作品8"></div>
+                        <div class="work-info"><h3>作品タイトル 8</h3><p>作者名</p><small>恋愛</small></div>
+                    </a>
+
+                    <a href="work.html" class="work-card">
+                        <div class="work-image"><img src="images/top.jpeg" alt="作品9"></div>
+                        <div class="work-info"><h3>作品タイトル 9</h3><p>作者名</p><small>ミステリー</small></div>
+                    </a>
+
+                    <a href="work.html" class="work-card">
+                        <div class="work-image"><img src="images/top.jpeg" alt="作品10"></div>
+                        <div class="work-info"><h3>作品タイトル 10</h3><p>作者名</p><small>青春</small></div>
+                    </a>
+
+                    <a href="work.html" class="work-card">
+                        <div class="work-image"><img src="images/top.jpeg" alt="作品11"></div>
+                        <div class="work-info"><h3>作品タイトル 11</h3><p>作者名</p><small>ファンタジー</small></div>
+                    </a>
+
+                    <a href="work.html" class="work-card">
+                        <div class="work-image"><img src="images/top.jpeg" alt="作品12"></div>
+                        <div class="work-info"><h3>作品タイトル 12</h3><p>作者名</p><small>短編</small></div>
+                    </a>
+
+                    <a href="work.html" class="work-card">
+                        <div class="work-image"><img src="images/top.jpeg" alt="作品13"></div>
+                        <div class="work-info"><h3>作品タイトル 13</h3><p>作者名</p><small>現代文学</small></div>
+                    </a>
+
+                    <a href="work.html" class="work-card">
+                        <div class="work-image"><img src="images/top.jpeg" alt="作品14"></div>
+                        <div class="work-info"><h3>作品タイトル 14</h3><p>作者名</p><small>恋愛</small></div>
+                    </a>
+
+                    <a href="work.html" class="work-card">
+                        <div class="work-image"><img src="images/top.jpeg" alt="作品15"></div>
+                        <div class="work-info"><h3>作品タイトル 15</h3><p>作者名</p><small>ミステリー</small></div>
+                    </a>
+
+                    <a href="work.html" class="work-card">
+                        <div class="work-image"><img src="images/top.jpeg" alt="作品16"></div>
+                        <div class="work-info"><h3>作品タイトル 16</h3><p>作者名</p><small>青春</small></div>
+                    </a>
+
+                    <a href="work.html" class="work-card">
+                        <div class="work-image"><img src="images/top.jpeg" alt="作品17"></div>
+                        <div class="work-info"><h3>作品タイトル 17</h3><p>作者名</p><small>ファンタジー</small></div>
+                    </a>
+
+                    <a href="work.html" class="work-card">
+                        <div class="work-image"><img src="images/top.jpeg" alt="作品18"></div>
+                        <div class="work-info"><h3>作品タイトル 18</h3><p>作者名</p><small>短編</small></div>
+                    </a>
+
+                    <a href="work.html" class="work-card">
+                        <div class="work-image"><img src="images/top.jpeg" alt="作品19"></div>
+                        <div class="work-info"><h3>作品タイトル 19</h3><p>作者名</p><small>現代文学</small></div>
+                    </a>
+
+                    <a href="work.html" class="work-card">
+                        <div class="work-image"><img src="images/top.jpeg" alt="作品20"></div>
+                        <div class="work-info"><h3>作品タイトル 20</h3><p>作者名</p><small>恋愛</small></div>
+                    </a>
+
+                    <a href="work.html" class="work-card">
+                        <div class="work-image"><img src="images/top.jpeg" alt="作品21"></div>
+                        <div class="work-info"><h3>作品タイトル 21</h3><p>作者名</p><small>ミステリー</small></div>
+                    </a>
+
+                    <a href="work.html" class="work-card">
+                        <div class="work-image"><img src="images/top.jpeg" alt="作品22"></div>
+                        <div class="work-info"><h3>作品タイトル 22</h3><p>作者名</p><small>青春</small></div>
+                    </a>
+
+                    <a href="work.html" class="work-card">
+                        <div class="work-image"><img src="images/top.jpeg" alt="作品23"></div>
+                        <div class="work-info"><h3>作品タイトル 23</h3><p>作者名</p><small>ファンタジー</small></div>
+                    </a>
+
+                    <a href="work.html" class="work-card">
+                        <div class="work-image"><img src="images/top.jpeg" alt="作品24"></div>
+                        <div class="work-info"><h3>作品タイトル 24</h3><p>作者名</p><small>短編</small></div>
+                    </a>
+
+
+                </div>
+
+
+            </section>
+
+
+
+            <!-- ==================================
+                 フッター
+            =================================== -->
+
+            <footer>
+
+                <p>
+                    © Story Scape
+                </p>
+
+            </footer>
+
+
+        </main>
+
+
+
+
+    </div><!-- site-wrapper -->
+
+            <!-- ==================================
+             右側：サイドパネル
+        =================================== -->
+
+        <aside class="side-panel" id="side-panel">
+
+
+            <!-- ==================================
+                 右上画像
+            =================================== -->
+
+            <div class="side-hero">
+
+
+                <img src="images/side.jpg" alt="">
+
+
+                <!-- 画像の上に文字 -->
+
+                <div class="side-copy">
+
+                    <p>
+                        物語は、
+                    </p>
+
+                    <p>
+                        いつもあなたのそばに。
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- ==================================
+                 メニュー
+            =================================== -->
+
+            <nav class="side-navigation">
+
+
+                <a href="index.html">
+
+                    <span>
+                        HOME
+                    </span>
+
+                    <b>
+                        ›
+                    </b>
+
+                </a>
+
+
+                <a href="#about">
+
+                    <span>
+                        ABOUT
+                    </span>
+
+                    <b>
+                        ›
+                    </b>
+
+                </a>
+
+
+                <a href="#genre">
+
+                    <span>
+                        GENRE
+                    </span>
+
+                    <b>
+                        ›
+                    </b>
+
+                </a>
+
+
+                <a href="#works">
+
+                    <span>
+                        WORKS
+                    </span>
+
+                    <b>
+                        ›
+                    </b>
+
+                </a>
+
+
+                <a href="#search">
+
+                    <span>
+                        SEARCH
+                    </span>
+
+                    <b>
+                        ›
+                    </b>
+
+                </a>
+
+
+                <a href="#contact">
+
+                    <span>
+                        CONTACT
+                    </span>
+
+                    <b>
+                        ›
+                    </b>
+
+                </a>
+
+
+            </nav>
+            <!-- 下の線 -->
+            <div class="side-bottom-line"></div>
+        </aside>
+
+        <script>
+            const menuButton = document.querySelector('.menu-button');
+            const sidePanel = document.querySelector('.side-panel');
+
+            menuButton.addEventListener('click', () => {
+                const isActive = sidePanel.classList.toggle('active');
+                menuButton.setAttribute('aria-expanded', isActive);
+            });
+        </script>
+
+</body>
+
+</html>
